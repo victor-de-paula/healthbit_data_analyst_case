@@ -19,7 +19,16 @@
 >
 > I conducted an **Exploratory Data Analysis (EDA)** on two datasets (*cadastro_base* and *sinistros_base*), cross-referencing the data to identify patterns and pinpoint the reasons behind the cost fluctuations over the 12-month period of analysis, as requested in the challenge.
 > 
-> Technologies used:
+> **Technologies used**:
 > - [Python](https://www.python.org/)
 > - [Notebooke Jupyter](https://jupyter.org/)
 > - [Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi)
+
+## Data Preparation & Cleaning
+> `cadastro_base`
+> 
+> Based on the EDA conducted, it was noted that some treatments were necessary in the `cadastro_base` dataframe, as it is a base with the position date of the registration updates for each client.
+> 
+> To have unique results for each client (`CODIGO ÚNICO DA PESSOA`), I chose to bring the last record for each client, avoiding problems with duplicate *dates* and *ages*, as was the case before. Additionally, I treated the `DATA DE NASCIMENTO` column to correct the issue found with the 12 invalid records.
+> 
+> As a result, I generated a new treated dataframe named `beneficiaries`, with these unique results coming from `cadastro_base`.
