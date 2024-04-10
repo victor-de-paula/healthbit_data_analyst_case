@@ -87,7 +87,7 @@
 > 8. The proportion of hospitalization (`INTERNAÇÃO?`) events decreased from 2020 to 2021. In the first year, these represent 33% of the total events, while in 2021 this number is halved, representing 16% of the claims in that year.
 
 ## Final Dashboard
-> You can view and interact with the dashboard created in Power BI from the following link, which allows you to explore the underlying factors behind cost fluctuations over time. To view the dashboard, simply click on [HealthBit_Case_Analysis](https://app.powerbi.com/view?r=eyJrIjoiYTkxNTlkMTAtODk4OC00ODU0LWExMzEtMzM3ODc2ZTJhYWNiIiwidCI6ImU1MWE0OTI5LWFmMDgtNDJkMC04MjE2LWExZjM1ZGYxNzZmNiJ9).
+> You can view and interact with the dashboard created in Power BI from the following link, which allows you to explore the underlying factors behind cost fluctuations over time. To view the dashboard, simply click on [HealthBit_Case_Analysis](https://app.powerbi.com/view?r=eyJrIjoiZTgzYWQyNWQtMTM5OC00OTMxLTlkNzEtYjFhOWExNzI2ODM4IiwidCI6ImU1MWE0OTI5LWFmMDgtNDJkMC04MjE2LWExZjM1ZGYxNzZmNiJ9).
 >
 > If you prefer, you can also download the Power BI workbook to manipulate the dashboard directly on your computer. Simply download the file "HealthBit_Case_Analysis.pbix" available in this repository.
 > 
